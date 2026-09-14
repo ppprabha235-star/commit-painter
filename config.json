@@ -1,0 +1,19 @@
+{
+  "mode": "random",
+  "startDate": null,
+  "endDate": null,
+  "random": {
+    "activeDayProbability": 0.6,
+    "minCommitsPerDay": 1,
+    "maxCommitsPerDay": 4
+  },
+  "pattern": {
+    "text": "HI",
+    "startWeek": 0,
+    "startDay": 0,
+    "commitsPerCell": 3
+  },
+  "push": false,
+  "remote": "origin",
+  "branch": "main"
+}

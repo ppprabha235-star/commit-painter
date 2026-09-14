@@ -1,0 +1,20 @@
+{
+  "name": "commit-painter",
+  "version": "1.0.0",
+  "description": "Backfill a GitHub contribution graph with commits — random density fill or a drawn text/pixel pattern.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "cleanup": "node cleanup.js"
+  },
+  "keywords": ["github", "contributions", "git", "commit-history"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1",
+    "random": "^4.1.0",
+    "simple-git": "^3.25.0"
+  }
+}
